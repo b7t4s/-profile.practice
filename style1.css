@@ -1,0 +1,148 @@
+@charset "utf-8";
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro";
+
+
+}
+/*----------header--------------*/
+
+header {
+    display: flex;
+    /* width: 960px; */
+    /* height: 100px; */
+    margin: 0 auto;
+    padding: 0 4%;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+ul#nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 350px;
+}
+
+li.nav {
+    width: 32%;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    list-style: none;
+    /* justify-content: space-between; */
+}
+
+li a {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    /* line-height: 25px; */
+    width: 165px;
+}
+
+li a span {
+    color: #053e62;
+    font-size: 13px;
+}
+/*--------------main----------------*/
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-picture img {
+ width: 100%;
+ height: 750px;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 25%;
+}
+
+#main1 h2 {
+    font-size: 25px;
+    margin: auto;
+    width: 105px;
+    padding: 30px 0px;
+}
+
+#main1 ul, p {
+    display: block;
+    margin-left: 180px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: none;
+}
+
+#main1 li {
+    list-style: none;
+    font-size: larger;
+    font-family: none;
+    margin-left: 8%;
+}
+
+#main1 img {
+    /* border-radius: 320px; */
+    /* width: 107px; */
+    /* height: 95px; */
+    /* display: block; */
+    width: 290px;
+    height: 290px;
+    margin-left: 900px;
+    margin-top: -175px;
+}
+
+/*---------------main2---------------*/
+
+#main2 h2 {
+    font-size: 25px;
+    margin: auto;
+    width: 125px;
+    padding: 30px 0px;
+}
+
+.content2 img {
+    width: 390px;
+    height: 390px;
+    margin-right: 100px;
+}
+
+.content2 {
+    /*display: flex;*/
+    justify-content: center;
+}
+
+.content2 h4 {
+    font-family: none;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content2 p {
+    margin: 0;
+    font-size: 18px;
+    font-family: none;
+}
+
+/*----------------main3-----------------*/
+
+#main3 h2 {
+    font-size: 25px;
+    margin: auto;
+    width: 100px;
+    padding: 30px 0px;
+}
+
+p.step1, p.step2, p.step3 {
+    font-family: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
